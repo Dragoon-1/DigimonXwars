@@ -1,0 +1,48 @@
+body{
+    
+    background-image: url("../images/b1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    content: fixed;
+    height: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+    display:flex ;
+}
+
+
+.topnav{
+    display: flex;
+    color: #01398b;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+    
+    
+}
+
+#home,#login,#episode,#characters,#about{
+    margin-right: 4px;
+    padding: 4px;
+    color: aqua;
+    border-radius: 10px;
+    font-size: larger;
+    
+}
+
+#home:hover,#login:hover,#episode:hover,#characters:hover,#about:hover{
+    background-color: #000000;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #f369c9,
+                0 0 2rem #9d03d9,
+                0 0 0.8rem #773990,
+                0 0 2.8rem #290437,
+                inset 0 0 1.3rem #000000;
+}
